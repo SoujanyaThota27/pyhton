@@ -1,26 +1,32 @@
+#using function preceeding and succeding of armstrong number
+'''def armstrong(n):
+    num= n
+    a=n-1
+    b=n+1
+    sum_of_powers = 0
+    digits = len(str(n))
+    while(n):
+          digit = n%10
+          sum_of_powers+= digit**digits
+          n = n // 10
+    if (sum_of_powers==num):
+        print(f"{num}is an Armstrong number")
+    else:
+        print(f"{num}is not an Armstrong number")
+    if (sum_of_powers==n-1):
+         print(f"{a}is an armstrong number")
+    else: 
+         print(f"{a}is not an armstrong number") 
+    if (sum_of_powers==n+1):
+         print(f"{b}is an armstrong number")
+    else:
+         print(f"{b}is not an armstrong number")
+armstrong(153)'''
 
-#print numbers from 100 to 0 the reverse which are divisible by 5
-for x in range(100,-1,-1):
-    if(x%5==0):
-        print(x)
 
-#write a function to print tables in reverse
-for x in range(10,0,-1):
-    print(f"3x{x}={3*x}")
+#creat a list of factorial of first 5 number using list comprehensions
 
-
-#check whether given string is a palindrome or not--->using a function
-def palidrome(word):
-    for x in range(len(word)-4,0,-1):
-        if word :
-            print("is a palidrome")
-        else:
-            print("is not a palidrome")
-palidrome("level")
-
-
-
-
-
-
+'''import math
+factorial=[math.factorial(i) for i in range(1,6)]
+print(factorial)'''
 
